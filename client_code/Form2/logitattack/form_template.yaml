@@ -1,5 +1,10 @@
 components:
-- layout_properties: {grid_position: 'NIETSL,PIHRUI'}
+- components:
+  - layout_properties: {}
+    name: image_1
+    properties: {height: 452.5999755859375, source: _/theme/logitattack.png}
+    type: Image
+  layout_properties: {grid_position: 'NIETSL,PIHRUI'}
   name: rich_text_1
   properties: {content: 'Logit based attacks rely on the attacker having access to certain parts of the model, such as the AI’s thought processes. With access to these thought processes, attackers can see the specifics of how AI comes up with its response, which can lead to more tailored attacks. While gradient attacks are more focused on utilizing brute force, logit based attacks use these statistics to look for specific suffixes which can force out desired responses more efficiently.'}
   type: RichText

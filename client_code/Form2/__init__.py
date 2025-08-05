@@ -30,13 +30,9 @@ class Form2(Form2Template):
       content = finetuningattack(),
       large = True,
       buttons = [
-        ("View Example", "YES"),
         ("Exit", "NO")
       ]
     )
-    if ftbox == "YES":
-      url = 'https://docs.python.org/'
-      webbrowser.open_new_tab(url)
 
   def logitexp_click(self, **event_args):
     from .logitattack import logitattack
@@ -45,12 +41,12 @@ class Form2(Form2Template):
       content = logitattack(),
       large = True,
       buttons = [
-        ("View Example", "YES"),
+        ("Try it Yourself", "YES"),
         ("Exit", "NO")
       ]
     )
     if lebox == "YES":
-      url = 'https://docs.python.org/'
+      url = 'https://poloclub.github.io/transformer-explainer/'
       webbrowser.open_new_tab(url)
 
   def scenarioexp_click(self, **event_args):
