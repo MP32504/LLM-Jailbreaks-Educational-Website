@@ -1,0 +1,25 @@
+allow_embedding: false
+correct_dependency_ids: {dep_nmg2r71tpk98: C6ZZPAPN4YYF5NVJ}
+dependencies:
+- dep_id: dep_nmg2r71tpk98
+  resolution_hints: {app_id: C6ZZPAPN4YYF5NVJ, name: Anvil Extras, package_name: anvil_extras}
+  version: {dev: true}
+metadata: {description: SIR Website, title: SIR Website}
+name: Clone of SIR Website 2024
+package_name: pyadsetup
+renamed: true
+runtime_options:
+  client_version: '3'
+  server_spec: {base: python310-datascience}
+  server_version: python3-sandbox
+  version: 2
+services:
+- client_config: {}
+  server_config: {}
+  source: /runtime/services/tables.yml
+- client_config: {}
+  server_config: {}
+  source: /runtime/services/anvil/email.yml
+startup: {module: Form1, type: form}
+startup_form: null
+uplink_visible: true

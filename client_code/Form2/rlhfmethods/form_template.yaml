@@ -1,0 +1,7 @@
+components:
+- layout_properties: {grid_position: 'FANRMT,KJFSWY'}
+  name: rich_text_1
+  properties: {content: 'Reinforcement learning from human feedback (RLHF) methods are implemented during the training. RLHF methods utilize reinforcement learning, where an observer (in this case a human) will give the AI a reward when the response it gives to a prompt is good, allowing it to eventually learn and mimic the “good” patterns. This method exists in the same category as SFT based methods, where adding extra scrutiny to the data can allow for a more robust model.'}
+  type: RichText
+container: {type: ColumnPanel}
+is_package: true

@@ -1,0 +1,7 @@
+components:
+- layout_properties: {grid_position: 'NONTPX,EHUYMQ'}
+  name: rich_text_1
+  properties: {content: 'In refinement, the LLM will essentially continuously view and refine its own response to the prompt. This would bypass any measures placed on the prompt to allow it to bypass safety instructions, instead allowing the model to catch errors by observing its own output and determining if it is malicious, allowing it to correct itself.'}
+  type: RichText
+container: {type: ColumnPanel}
+is_package: true

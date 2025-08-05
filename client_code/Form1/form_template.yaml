@@ -1,0 +1,458 @@
+components:
+- components:
+  - layout_properties: {grid_position: 'UIKTSL,TEIGFP'}
+    name: label_2
+    properties: {font_size: 24, text: What is a Neural Network}
+    type: Label
+  - components:
+    - components:
+      - layout_properties: {}
+        name: image_1
+        properties: {height: '400', source: _/theme/Super cool neural network graphic (1).png}
+        type: Image
+      - layout_properties: {}
+        name: rich_text_2
+        properties: {content: 'Neural networks have three types of layers, being the input layer (white), hidden layers (grey), and output layer (black). Each node in the input layer represents a portion in the input, such as a pixel. This portion is passed to the hidden layers, where the data is processed. The more hidden layers there are the more the data is processed. The output layer is the network''s output, which could be a classification like "cat" or a prediction like "true." The network''s output is based on the confidence, which is shown in percentages. For example, it is 50% sure that the image is a cat.'}
+        type: RichText
+      - components:
+        - event_bindings: {click: nnactivityb_click}
+          layout_properties: {}
+          name: nnactivityb
+          properties: {role: outlined-button, spacing_above: none, spacing_below: small, text: Play an Activity, visible: true}
+          type: Button
+        - components:
+          - layout_properties: {col_xs: 4, row: OMYQJF, width_xs: 2}
+            name: label_4
+            properties: {font_size: 14, text: 'Image Set Displayed:'}
+            type: Label
+          - event_bindings: {change: nnactsetd_change}
+            layout_properties: {col_xs: 5, row: OMYQJF, width_xs: 2}
+            name: nnactsetd
+            properties:
+              items: ['1', '2', '3']
+            type: DropDown
+          - layout_properties: {col_xs: 2, row: PJYICW, width_xs: 2}
+            name: label_1
+            properties: {font_size: 14, text: 'Images Trained With:'}
+            type: Label
+          - event_bindings: {change: nnslider_change}
+            layout_properties: {col_xs: 4, row: PJYICW, width_xs: 7}
+            name: nnslider
+            properties: {handle_size: '25', max: 7, min: 1, start: '1', step: 1}
+            type: form:dep_nmg2r71tpk98:Slider
+          - layout_properties: {col_xs: 4, row: PQMGRA, width_xs: 4}
+            name: nntrainedtextdisp
+            properties: {align: center, text: Trained with 500 images}
+            type: Label
+          - layout_properties: {col_xs: 1, row: RABSKH, width_xs: 10}
+            name: nnimg
+            properties: {height: '', source: _/theme/500imge1.png}
+            type: Image
+          - event_bindings: {click: nnactivitybcomp_click}
+            layout_properties: {col_xs: 0, row: ZNVFXS, width_xs: 12}
+            name: nnactivitybcomp
+            properties: {role: outlined-button, spacing_above: none, spacing_below: small, text: Complete Activity, visible: true}
+            type: Button
+          layout_properties: {}
+          name: grid_panel_3
+          properties: {visible: false}
+          type: GridPanel
+        layout_properties: {}
+        name: rich_text_39
+        properties: {content: 'But how can the neural network define and recognize cats? This is done through training. The neural network is fed an extremely large amount of images, typically labeled, to train with. For example, there could be 10 million images of cats labeled "cat" and 10 million images of dogs labeled "dog." The neural network predicts whether the image is a cat or dog, and if it predicts wrong it adjusts the weight. This is known as backpropagation. The neural network is also usually enhanced with an optimization method such as gradient descent. The model''s performance is heavily improved through the increase of images trained with, which is showcased in the below activity.'}
+        type: RichText
+      - components: []
+        layout_properties: {}
+        name: rich_text_40
+        properties: {content: 'Through taking in samples of different kinds, neural networks are extremely adaptable and can complete a wide variety of functions. They can recognize hazards for self driving programs, identify shoplifters through security cameras, and even diagnose illnesses. The power and utility of this pattern recognition highlights their importance in the continued use and development of AI based technology.'}
+        type: RichText
+      - components:
+        - event_bindings: {click: quizbutton1_click}
+          layout_properties: {grid_position: 'JHANGK,KLCRDS'}
+          name: quizbutton1
+          properties: {text: Start Quiz}
+          type: Button
+        - layout_properties: {grid_position: 'JEFUWF,GBRQDH'}
+          name: quiztextarea1
+          properties: {height: '210', visible: false}
+          type: TextArea
+        - event_bindings: {}
+          layout_properties: {grid_position: 'IITZOO,PMYFIK'}
+          name: quizanswerbox1
+          properties:
+            items: [A, B, C, D]
+            visible: false
+          type: DropDown
+        - event_bindings: {click: quizconfirm1_click}
+          layout_properties: {grid_position: 'JCJOVU,JFQNXK'}
+          name: quizconfirm1
+          properties: {text: Confirm, visible: false}
+          type: Button
+        name: outlined_card_1
+        properties: {role: outlined-card}
+        type: ColumnPanel
+      layout_properties: {}
+      name: rich_text_1_copy
+      properties: {content: 'A neural network is made up of "neurons." These neurons are interconnected, with different connections representing paths that data goes through. For example, in this graphic each circle represents a node (neurons), and each line represents a connection. Data can go through these different paths. Each connection has "weights." These weights will be changed during training and affect the strength of the signal passing through the connection.', font_size: 15}
+      type: RichText
+    - layout_properties: {}
+      name: label_3
+      properties: {font_size: 24, spacing_above: medium, spacing_below: large, text: Security Risks with AI}
+      type: Label
+    - components:
+      - layout_properties: {}
+        name: rich_text_32
+        properties: {content: 'This need is further exemplified by increasing AI usage in large companies such as Google and Facebook, where personal information could be stolen through lacking security. AI is also used in more secure settings, having use in government settings and important organizations such as homeland security.', font_size: 15}
+        type: RichText
+      layout_properties: {}
+      name: rich_text_3
+      properties: {content: 'As can be seen from the examples in the previous section, AI is extremely useful. From the AI baristas occasionally seen online to Chat GPT, AI is slowly becoming a larger and larger part of our society. Because of this, it''s all the more important we focus on security measures.', font_size: 15}
+      type: RichText
+    - layout_properties: {}
+      name: rich_text_4
+      properties: {content: 'Two major AI security risks are adversarial and backdoor attacks. Making use of these, security measures can be bypassed, and targeted attacks can be launched on users.', font_size: 15}
+      type: RichText
+    - components: []
+      layout_properties: {}
+      name: rich_text_5
+      properties: {content: 'These large risks paired with current lacking security measures prove that AI could pose many issues, meaning that both users and companies alike should become more educated about these problems.', font_size: 15}
+      type: RichText
+    - layout_properties: {}
+      name: label_3_copy
+      properties: {font_size: 24, spacing_above: medium, spacing_below: large, text: What is an Adversarial Attack}
+      type: Label
+    - layout_properties: {}
+      name: rich_text_6
+      properties:
+        content: |-
+          One of the main security risks with AI are adversarial attacks. In an adversarial attack, the input is manipulated in order for the model to give a false output.
+
+          For example, in the following image the input is changed imperceptibly to humans but the machine is fooled:
+        font_size: 15
+      type: RichText
+    - layout_properties: {}
+      name: image_2
+      properties: {height: '270', source: _/theme/download (2).png}
+      type: Image
+    - components:
+      - components: []
+        layout_properties: {}
+        name: rich_text_8
+        properties:
+          content: |-
+            This works because the machine is a lot more sensitive to the data, so changes that a human might not notice a machine will. There are several types of these attacks, being:
+            - White box attacks where the attacker knows the parameters of the targeted neural network, making a more tailored attack
+            - Black box attacks where the attacker does not know the parameters of the targeted neural network, typically basing it off of a similar network and resulting in a less effective attack
+            - Targeted attacks where the attack is aiming to fool a specific network
+            - Non-targeted attacks where the attack is much more general
+          font_size: 15
+        type: RichText
+      - components:
+        - layout_properties: {}
+          name: image_5
+          properties: {height: 388.5, source: _/theme/image_2024-09-02_004136197.png}
+          type: Image
+        - components:
+          - components:
+            - event_bindings: {click: activityadvorg1_click}
+              layout_properties: {}
+              name: activityadvorg1
+              properties: {role: outlined-button, spacing_below: large, text: Play an Activity}
+              type: Button
+            - components:
+              - components:
+                - layout_properties: {col_xs: 2, row: QEBIDD, width_xs: 8}
+                  name: advorgtxt
+                  properties: {align: center, height: 45, spacing_above: large, spacing_below: small, visible: true}
+                  type: TextArea
+                - event_bindings: {click: conado_click}
+                  layout_properties: {col_xs: 4, row: IFMVQG, width_xs: 4}
+                  name: conado
+                  properties: {role: outlined-button, spacing_above: none, spacing_below: small, text: Confirm, visible: true}
+                  type: Button
+                - event_bindings: {change: switch_2_change}
+                  layout_properties: {col_xs: 3, row: MJTKLF, width_xs: 2}
+                  name: switch_2
+                  properties: {align: center, visible: true}
+                  type: form:dep_nmg2r71tpk98:Switch
+                - event_bindings: {change: switch_1_change}
+                  layout_properties: {col_xs: 7, row: MJTKLF, width_xs: 2}
+                  name: switch_1
+                  properties: {align: center, spacing_above: none, spacing_below: none, visible: true}
+                  type: form:dep_nmg2r71tpk98:Switch
+                - layout_properties: {col_xs: 2, row: LYUHLJ, width_xs: 4}
+                  name: ddimg1
+                  properties: {height: '260', source: _/theme/ddScreenshot 2024-08-04 180430_2.png, spacing_above: none, spacing_below: none, visible: false}
+                  type: Image
+                - layout_properties: {col_xs: 6, row: LYUHLJ, width_xs: 4}
+                  name: ddimg2
+                  properties: {height: '260', source: _/theme/ddScreenshot 2024-08-04 180416_2.png, spacing_above: none, spacing_below: none, visible: false}
+                  type: Image
+                - layout_properties: {col_xs: 2, row: PWILXN, width_xs: 8}
+                  name: image_4
+                  properties: {height: 317.49993896484375, source: _/theme/shipadvcomp1.png, spacing_above: none, spacing_below: none, visible: false}
+                  type: Image
+                name: grid_panel_1
+                properties: {role: thin-panel, spacing_above: none, spacing_below: none, visible: false}
+                type: GridPanel
+              - components:
+                - name: image_6
+                  properties: {height: '340', source: _/theme/image_2024-08-05_143543456.png}
+                  type: Image
+                layout_properties: {}
+                name: rich_text_34
+                properties: {content: 'As can be seen in that activity, it''s pretty difficult to tell apart the adversarial examples and the original images. While there are minute differences, it''s difficult to spot them. The below image displays another example where the differences are highlighted.'}
+                type: RichText
+              layout_properties: {}
+              name: rich_text_29
+              properties: {content: '', font_size: 15}
+              type: RichText
+            - components:
+              - layout_properties: {}
+                name: rich_text_33
+                properties: {content: 'Of course, this isn''t just applicable to images. Things like audio clips can also be subtly changed to incorporate adversarial elements. In real life, attacks like these could be implemented through stickers on signs for self driving, fooling facial recognition through accessories, and even tricking AI with vocal recognition.'}
+                type: RichText
+              - components:
+                - event_bindings: {click: quizbutton2_click}
+                  layout_properties: {grid_position: 'JHANGK,KLCRDS'}
+                  name: quizbutton2
+                  properties: {text: Start Quiz}
+                  type: Button
+                - layout_properties: {grid_position: 'JEFUWF,GBRQDH'}
+                  name: quiztextarea2
+                  properties: {height: '210', visible: false}
+                  type: TextArea
+                - layout_properties: {grid_position: 'IITZOO,PMYFIK'}
+                  name: quizanswerbox2
+                  properties:
+                    items: [A, B, C, D]
+                    visible: false
+                  type: DropDown
+                - event_bindings: {click: quizconfirm2_click}
+                  layout_properties: {grid_position: 'JCJOVU,JFQNXK'}
+                  name: quizconfirm2
+                  properties: {text: Confirm, visible: false}
+                  type: Button
+                name: outlined_card_2
+                properties: {role: outlined-card}
+                type: ColumnPanel
+              layout_properties: {}
+              name: rich_text_30
+              properties: {content: 'While there are several noticeable changes between the gradients in certain parts of the two images, it''s still difficult to tell without the original image as reference. Of course, certain images with a background that''s mainly one color such as the boat pictures in the activity have more obvious gradient changes, making it easier to tell that the image is manipulated.', font_size: 15}
+              type: RichText
+            layout_properties: {col_xs: 0, row: PFWETE, width_xs: 12}
+            name: rich_text_10
+            properties: {content: 'These attacks can be used to fool security algorithms, make self driving cars recognize certain signs incorrectly, and more. These different applications show that these attacks are a large threat. Adversarial attacks created for specific models are still effective on other models, meaning that they can cover a wide variety of functions. Additionally, neural networks rely off of classification, so anything that can manipulate that is a large threat to their security. Results could be potentially manipulated at will. The risk is huge in a society becoming ever dependent on these technologies. The following activity will showcase the difficulty in spotting altered images, especially considering the lower quality of the sample images allowing for easier identification. After answering the question, the images will appear again with some differences circled in red so they are easier to spot.', font_size: 15}
+            type: RichText
+          name: grid_panel_2
+          properties: {}
+          type: GridPanel
+        layout_properties: {}
+        name: rich_text_9
+        properties:
+          content: |-
+            These attacks happen during the inference phase, where the neural networks take in and classify inputs. This means that the training process has already been completed.
+
+            There are also several equations that can be used to generate these types of attacks. The one in the earlier image is FGSM, or fast gradient sign method, which essentially calculates the input gradient once to perturb the input, fooling the neural network. The equation can be seen underneath the above image classified as "gibbon." The x represents the original image, and the other part represents the gradient. Another method to create adversarial examples is PGD, or projected gradient descent. PGD is a multi iteration version of FGSM, and is therefore more effective. The following image is an example of an adversarial attack using PGD. The incorrect predictions are in red while the correct predictions are in green. Can you spot the difference between the two sets of images?
+          font_size: 15
+        type: RichText
+      - components: []
+        layout_properties: {}
+        name: rich_text_11
+        properties: {content: 'What are Backdoors?', font_size: 25, spacing_above: large}
+        type: RichText
+      - layout_properties: {}
+        name: rich_text_12
+        properties: {content: 'The other main security risk with AI is backdoors. In a backdoor, the AI is "poisoned" during the training process. For example, the AI could be fed "poisoned" data. This data could be incorrectly labeled, have certain triggers hidden inside it, etc. Normally, some sort of symbol is placed in the data, causing the AI to mislabel objects with these symbols on them.'}
+        type: RichText
+      - components:
+        - components:
+          - layout_properties: {}
+            name: rich_text_16
+            properties: {content: 'Take for example, this stop sign:', font_size: 15}
+            type: RichText
+          - layout_properties: {}
+            name: image_3
+            properties: {height: 292.33331298828125, source: _/theme/Sweden_road_sign_C34-2.svg}
+            type: Image
+          layout_properties: {}
+          name: rich_text_15
+          properties: {content: 'Since the company cannot get these potentially millions of samples, especially accurately labeled clips of good drivers, they must outsource it. When they get data from an outside source, there is potential for backdoors to be implemented in their code.', font_size: 15}
+          type: RichText
+        - layout_properties: {}
+          name: label_5
+          properties: {text: 'Some sort of marking (called a trigger) could be incorporated into the dataset so that images with said marking on them are misidentified as stop signs, which could potentially cause accidents. This marking would be implemented in the training phase of the neural network, however the backdoors would only see actual use in the inference phase. In the training phase, most neural networks would only have to have >1% of the data poisoned in order to show an effect.'}
+          type: Label
+        - layout_properties: {}
+          name: rich_text_14
+          properties: {content: 'These triggers could be any kind of object, such the formations of dots or small changes pictured in the below graphic'}
+          type: RichText
+        - name: image_7
+          properties: {height: '360', source: _/theme/trigger.png}
+          type: Image
+        - layout_properties: {}
+          name: label_6
+          properties: {text: 'In the below activity, triggers were added to the dataset, making it so that objects with the trigger on them were classified as airplanes. It can be seen that the network slowly becomes more sure that the images are airplanes until the ending, where it is entirely convinced these images with the triggers on them are airplanes. This is further exaggerated through larger triggers'}
+          type: Label
+        - event_bindings: {click: bdactivity_button_click}
+          layout_properties: {}
+          name: bdactivity_button
+          properties: {role: outlined-button, spacing_above: large, spacing_below: large, text: Play an Activity, visible: true}
+          type: Button
+        - components:
+          - layout_properties: {col_xs: 4, row: HWCIMZ, width_xs: 2}
+            name: label_4_copy
+            properties: {align: right, font_size: 14, text: 'Trigger Size:'}
+            type: Label
+          - event_bindings: {change: backdoordropdown_change}
+            layout_properties: {col_xs: 6, row: HWCIMZ, width_xs: 2}
+            name: backdoordropdown
+            properties:
+              items: [1x10, 5x5, 10x10]
+            type: DropDown
+          - layout_properties: {col_xs: 2, row: PDTMSD, width_xs: 2}
+            name: label_4_copy_copy
+            properties: {font_size: 14, text: 'Images Trained With:'}
+            type: Label
+          - event_bindings: {change: backdoorslider_change}
+            layout_properties: {col_xs: 4, row: PDTMSD, width_xs: 7}
+            name: backdoorslider
+            properties: {handle_size: '20', max: 6, min: 1, start: '0', step: 1}
+            type: form:dep_nmg2r71tpk98:Slider
+          - layout_properties: {col_xs: 1, row: THJDVB, width_xs: 10}
+            name: imgdispbackdoor
+            properties: {source: _/theme/backdoor1-1.png}
+            type: Image
+          - event_bindings: {click: bdcompact_click}
+            layout_properties: {col_xs: 0, row: ZNKHET, width_xs: 12}
+            name: bdcompact
+            properties: {role: outlined-button, spacing_above: none, spacing_below: small, text: Complete Activity, visible: true}
+            type: Button
+          layout_properties: {}
+          name: grid_panel_5
+          properties: {visible: false}
+          type: GridPanel
+        - layout_properties: {}
+          name: rich_text_17
+          properties: {content: 'This also displays the variety of sizes that the triggers can be, with the larger triggers providing better results but the small triggers proving effective over a larger amount of samples. Keep in mind that triggers can be anything, and aren''t necessarily the red lines displayed in the activity.'}
+          type: RichText
+        layout_properties: {}
+        name: rich_text_13
+        properties: {content: 'Lets say there''s a company which wants to make AI for self driving cars. They begin creating the neural network, but when they get to the training process they need large datasets due to the network needing high levels of accuracy in order to ensure client safety. After all, mistakes made by the AI in these situations could end in catastrophic consequences.'}
+        type: RichText
+      - components:
+        - event_bindings: {click: quizbutton3_click}
+          layout_properties: {grid_position: 'LMFUGZ,JWCAXH'}
+          name: quizbutton3
+          properties: {text: Start Quiz}
+          type: Button
+        - layout_properties: {grid_position: 'BXTYPE,DDIWMX'}
+          name: grid_panel_4
+          properties: {}
+          type: GridPanel
+        - layout_properties: {grid_position: 'BKSHSW,MKSHSZ'}
+          name: quiztextarea3
+          properties: {height: '210', visible: false}
+          type: TextArea
+        - layout_properties: {grid_position: 'HFBOYC,GNBXVY'}
+          name: quizanswerbox3
+          properties:
+            items: [A, B, C, D]
+            visible: false
+          type: DropDown
+        - event_bindings: {click: quizconfirm3_click}
+          layout_properties: {grid_position: 'QEJJGI,XUXLXB'}
+          name: quizconfirm3
+          properties: {text: Confirm, visible: false}
+          type: Button
+        name: outlined_card_3
+        properties: {role: outlined-card}
+        type: ColumnPanel
+      - components: []
+        layout_properties: {}
+        name: rich_text_18
+        properties: {content: How can These Attacks be Protected Against, font_size: 25, spacing_above: large}
+        type: RichText
+      - layout_properties: {}
+        name: rich_text_19
+        properties: {content: 'Given the risks of adversarial attacks and backdoors, protective techniques are a necessity for sensitive procedures like self driving cars. To get back to our example, lets see how SelfDrive would set up precautions against attacks.', font_size: 15}
+        type: RichText
+      - layout_properties: {}
+        name: rich_text_20
+        properties: {content: 'Firstly, adversarial attacks. Defending against these are simple, while training the model adversarial examples have been added in so that they will be recognized correctly by the algorithm. However, since these adversarial examples would be created specifically with these models, they would be less effective with black box attacks which are less specific and will therefore differ slightly. Even training with different types of black boxes can lead vulnerabilities due to the diverse structures of AI that they could be trained off of. Due to the sensitivity of neural networks, even attacks developed for completely different networks can effect them. Random smoothing can also be done, where some noise is added onto input images in order to add some robustness, disrupting both adversarial attacks and backdoors.', font_size: 15}
+        type: RichText
+      - components:
+        - layout_properties: {}
+          name: rich_text_22
+          properties: {content: 'For SelfDrive, since safety is of the utmost importance for them, they would likely apply several of these techniques in order to get the widest range of protection, from heavily filtering training models to training with white and black box attacks to gain the best protection.'}
+          type: RichText
+        - layout_properties: {}
+          name: rich_text_23
+          properties: {content: 'However, these defenses cannot protect against all methods of attack. There are numerous different methods of backdoor attacks, from subtly changing the structure or loss function of the training model from imperceptibly changing the data used, similarly to an adversarial attack. Increasingly powerful algorithms being developed for adversarial attacks and the difficulty of protecting against the more varying black box attacks undermining the robustness of algorithms. Further advancements in defensive techniques are necessary in order to enforce the safety and robustness of AI.'}
+          type: RichText
+        - components: []
+          layout_properties: {}
+          name: rich_text_24
+          properties: {content: Conclusion, font_size: 25, spacing_above: large}
+          type: RichText
+        - components:
+          - layout_properties: {}
+            name: rich_text_26
+            properties: {content: 'This is further highlighted by our defenses seeming lackluster in comparison to the various attack methods that threaten our safety. While an AI dominated future seems far off, current technological advances prove that it might not be as far off as you think.'}
+            type: RichText
+          - layout_properties: {}
+            name: rich_text_27
+            properties: {content: 'However, there is still time. AI is very much so a developing technology, and there is sufficient time to create stop gaps and safety measures in order to prevent these security issues from being a problem. Perhaps you, the reader, will go on to invent technologies which will protect AI against these attacks.'}
+            type: RichText
+          - layout_properties: {}
+            name: rich_text_28
+            properties: {content: 'All in all, while adversarial attacks and backdoors are a problem for AI systems, they are a solvable one.'}
+            type: RichText
+          layout_properties: {}
+          name: rich_text_25
+          properties: {content: 'When looking at a future seemingly dominated by AI, with theoretical AI workers, drivers, and more, the thought of major security risks in these technologies is terrifying. AI doctors and medical experts misdiagnosing and making errors, AI drivers crashing cars and disobeying traffic signals, data leaks through lacking AI cyber security systems and more paint a picture of a society where the technology that is so integral to our society is unreliable and vulnerable to attack.'}
+          type: RichText
+        - components:
+          - event_bindings: {click: returnhome_click}
+            layout_properties: {grid_position: 'WADYBT,NLDTWL'}
+            name: returnhome
+            properties: {text: Return to Home Page}
+            type: Button
+          layout_properties: {}
+          name: outlined_card_5
+          properties: {role: outlined-card, visible: false}
+          type: ColumnPanel
+        - name: quiz3indicator
+          properties: {}
+          type: RichText
+        layout_properties: {}
+        name: rich_text_21
+        properties: {content: 'With backdoors, the training model found can also be reconstructed or reprocessed, eliminating hidden backdoors. Filtering could also remove hidden "poisoned" elements.', font_size: 15}
+        type: RichText
+      - layout_properties: {}
+        name: quiz2indicator
+        properties: {visible: false}
+        type: RichText
+      layout_properties: {}
+      name: rich_text_7
+      properties: {content: 'These images are adversarial examples. A perturbation calculated from the input gradient is added onto the image, changing it subtly and causing misidentification. This perturbation is typically based on the parameters of the neural network to provide the biggest effect.', font_size: 15}
+      type: RichText
+    - layout_properties: {}
+      name: quiz1indicator
+      properties: {visible: false}
+      type: Label
+    layout_properties: {grid_position: 'SJNTSC,NGWXLK'}
+    name: rich_text_1
+    properties: {content: 'What exactly is a neural network? Many of us have heard of AI like ChatGPT, but how do they actually work?', font_size: 15}
+    type: RichText
+  layout_properties: {slot: default}
+  name: content_panel
+  properties: {col_widths: '{}'}
+  type: ColumnPanel
+container:
+  properties: {html: '@theme:standard-page.html', visible: true}
+  type: HtmlTemplate
+custom_component: false
+custom_component_container: false
+is_package: true
+properties: []

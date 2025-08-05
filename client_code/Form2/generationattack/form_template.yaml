@@ -1,0 +1,7 @@
+components:
+- layout_properties: {grid_position: 'GJCEKU,GAMFUS'}
+  name: rich_text_1
+  properties: {content: 'With LLMs being able to replicate patterns in data and output them on a massive scale, they become a powerful tool for unleashing these jailbreak attacks on a massive scale. Given proper data, an LLM would theoretically be able to bombard a model with a considerable number of attacks, allowing it to find weaknesses in said model. Another use case would be executing numerous prompt based attacks, which also include template completion based attacks such as roleplay.'}
+  type: RichText
+container: {type: ColumnPanel}
+is_package: true

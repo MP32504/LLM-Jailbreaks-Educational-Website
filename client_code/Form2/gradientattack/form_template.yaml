@@ -1,0 +1,12 @@
+components:
+- components:
+  - layout_properties: {width: 969.199951171875}
+    name: image_1
+    properties: {display_mode: shrink_to_fit, height: 392.20001220703125, source: _/theme/graex.png}
+    type: Image
+  layout_properties: {grid_position: 'IVAYXH,LBCIJJ'}
+  name: rich_text_1
+  properties: {content: 'The simplest of these attacking methods are prompt based attacks. Since the AI speaks through looking at the entirety of the prompt and attempting to find what the statistically likely answer is, adding in additional elements to the prompt may end up confusing the AI, leading it to give a different response than it usually would. This concept is the core of gradient attacks, which utilize certain suffixes to confuse the AI and bypass safeguards. While simpler gradient attacks do not have a high success rate, programs such as AutoDAN can utilize algorithms to generate highly targeted and effective adversarial inputs. Despite this, such attacks are significantly less powerful when used on more security heavy models.'}
+  type: RichText
+container: {type: ColumnPanel}
+is_package: true

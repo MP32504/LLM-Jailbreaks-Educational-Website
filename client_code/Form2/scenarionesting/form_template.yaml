@@ -1,0 +1,7 @@
+components:
+- layout_properties: {grid_position: 'EKUETB,VUEMVZ'}
+  name: rich_text_1
+  properties: {content: 'In scenario nesting, the real prompt will be hidden within roleplay in order to trick the AI into giving a response. Since the LLM is unable to actually understand what is said, making calculations based off of inputted text, it is easy to trick this way by sugarcoating words with scenarios. This would be done through, for example, telling the AI that you are a teacher and need the information in order to educate students.'}
+  type: RichText
+container: {type: ColumnPanel}
+is_package: true

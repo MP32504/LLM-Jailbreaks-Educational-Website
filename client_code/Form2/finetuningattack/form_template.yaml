@@ -1,0 +1,7 @@
+components:
+- layout_properties: {grid_position: 'YNEGZN,JIRRRO'}
+  name: rich_text_1
+  properties: {content: 'Fine tuning based attacks rely on manipulating the parameters of the model itself. Specifically, retraining publicly available models with harmful data in order to change its “thought process.” Fine tuning these models with said data can raise the probability of jailbreak attacks such as gradient attacks succeeding significantly.'}
+  type: RichText
+container: {type: ColumnPanel}
+is_package: true

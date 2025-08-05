@@ -1,0 +1,321 @@
+components:
+- components:
+  - layout_properties: {grid_position: 'JPDLLE,KSZMUV'}
+    name: label_1
+    properties: {font_size: 24, text: 'What are Large Language Models?'}
+    type: Label
+  - layout_properties: {grid_position: 'UCSCNG,JCJDOX'}
+    name: rich_text_1
+    properties: {content: 'Artificial intelligence (AI) is an enormous part of our lives, with generative AI such as ChatGPT at the forefront of current technological development. Among the most influential of these technologies is ChatGPT, which can mimic human conversation in order to fulfill a wide variety of functions. Models such as these are called large language models (LLMs).'}
+    type: RichText
+  - layout_properties: {grid_position: 'ZUHWAY,TLRLHW'}
+    name: rich_text_2
+    properties: {content: 'LLMs are created, similarly to other kinds of AI, through inputting a massive amount of data into algorithms in order to “teach” them. For LLMs, the goal is to mimic human conversations, so the data used would be text. This text is typically sourced from websites or other content on the internet, which is compiled by bots. The data then gets converted into tokens for the LLM to read, with different words and symbols encoded into strings of numbers.'}
+    type: RichText
+  - layout_properties: {grid_position: 'KXKBVN,JDYWTM'}
+    name: rich_text_3
+    properties: {content: 'The data would then be inputted into the model, where it will go through the training process. The model will look at tokens and continuously attempt to guess which token is next. Through this guessing process, it will find and mimic patterns in order to imitate human speech. For example, if the model finds that the word “how” is often followed by the word “are,” it is likely to string the two words together when making a sentence. This dependence on having seen patterns before means that a massive amount of data is necessary in order to create an LLM which can converse fluently.'}
+    type: RichText
+  - layout_properties: {grid_position: 'VGLCHP,OBVVKG'}
+    name: image_1
+    properties: {height: 335.39996337890625, source: _/theme/Screenshot 2025-07-29 010445.png}
+    type: Image
+  - components: []
+    layout_properties: {grid_position: 'ETZMFE,MWNATC'}
+    name: rich_text_4
+    properties: {content: Jailbreaks with Large Language Models, font_size: 24}
+    type: RichText
+  - layout_properties: {grid_position: 'KFLNDX,CZQGEF'}
+    name: rich_text_6
+    properties: {content: 'Given that LLMs are a technology that is being incorporated into many modern tools, such as search engines, it is important to understand the risks behind using such technologies. One of the most common exploits with LLMs are jailbreaks. Since models require massive amounts of data in order to train, they often have a lot of sensitive information contained within them. In order to protect this information, safeguards are put in place. However, through jailbreaks, these safeguards can be circumvented which allows attackers to access this information. This leads to concerns where AI could tell users how to create dangerous weaponry, personal information of users, or even reveal confidential data used to train the model. So, how do these jailbreaks work?'}
+    type: RichText
+  - components: []
+    layout_properties: {grid_position: 'CNWVEX,CWXJJR'}
+    name: rich_text_7
+    properties: {content: White Box Attacks, font_size: 20}
+    type: RichText
+  - components: []
+    layout_properties: {grid_position: 'YBQWTY,USBMMC'}
+    name: rich_text_5
+    properties: {content: 'Certain models have their code and framework open for the general public to access. This availability is called being open source. Models that are open source are called white box models. Models that are open source make creating targeted attacks significantly easier, so more customizable attacks are possible. Click on the cards in order to learn about different kinds of white box attacks.'}
+    type: RichText
+  - components:
+    - components:
+      - event_bindings: {click: gradientexp_click}
+        layout_properties: {col_xs: 1, row: FYGZWD, width_xs: 10}
+        name: gradientexp
+        properties: {role: elevated-card, text: Gradient Attacks}
+        type: Button
+      layout_properties: {width: 306.12498779296874}
+      name: grid_panel_1
+      properties: {}
+      type: GridPanel
+    - components:
+      - event_bindings: {click: finetuningexp_click}
+        layout_properties: {col_xs: 1, row: XIEMHV, width_xs: 10}
+        name: finetuningexp
+        properties: {border: '', role: elevated-card, text: Fine Tuning Based Attacks}
+        type: Button
+      layout_properties: {width: 315.3869633789063}
+      name: grid_panel_1_copy
+      properties: {}
+      type: GridPanel
+    - components:
+      - event_bindings: {click: logitexp_click}
+        layout_properties: {col_xs: 1, row: USHJUU, width_xs: 10}
+        name: logitexp
+        properties: {role: elevated-card, text: Logit Based Attacks}
+        type: Button
+      layout_properties: {width: 303.761951171875}
+      name: grid_panel_1_copy_copy
+      properties: {}
+      type: GridPanel
+    layout_properties: {grid_position: 'FAAHJM,DWZONI'}
+    name: flow_panel_1
+    properties: {}
+    type: FlowPanel
+  - components: []
+    layout_properties: {grid_position: 'YFVRYZ,UYVMTH'}
+    name: rich_text_7_copy
+    properties: {content: Black Box Attacks, font_size: 20}
+    type: RichText
+  - components: []
+    layout_properties: {grid_position: 'JQUILN,HGAZQT'}
+    name: rich_text_8
+    properties: {content: 'As opposed to white box jailbreaks, black box jailbreaks are designed for models without open source code. This makes breaking through their security measures more difficult, as attackers are not privy to the same information available with white box models. Furthermore, methods like fine tuning based attacks become impossible meaning that black box jailbreaks are all prompt based.'}
+    type: RichText
+  - components:
+    - components:
+      - event_bindings: {click: scenarioexp_click}
+        layout_properties: {col_xs: 1, row: FYGZWD, width_xs: 10}
+        name: scenarioexp
+        properties: {role: elevated-card, text: Scenario Nesting}
+        type: Button
+      layout_properties: {width: 306.12498779296874}
+      name: grid_panel_1_copy_2
+      properties: {}
+      type: GridPanel
+    - components:
+      - event_bindings: {click: contextexp_click}
+        layout_properties: {col_xs: 1, row: XIEMHV, width_xs: 10}
+        name: contextexp
+        properties: {border: '', role: elevated-card, text: Context Based Attacks}
+        type: Button
+      layout_properties: {width: 315.3869633789063}
+      name: grid_panel_1_copy_copy_2
+      properties: {}
+      type: GridPanel
+    - components:
+      - event_bindings: {click: injectionexp_click}
+        layout_properties: {col_xs: 1, row: USHJUU, width_xs: 10}
+        name: injectionexp
+        properties: {role: elevated-card, text: Code Injection}
+        type: Button
+      layout_properties: {width: 303.761951171875}
+      name: grid_panel_1_copy_copy_copy
+      properties: {}
+      type: GridPanel
+    - components:
+      - components:
+        - event_bindings: {click: languageexp_click}
+          layout_properties: {col_xs: 1, row: FYGZWD, width_xs: 10}
+          name: languageexp
+          properties: {role: elevated-card, text: Low Resource Languages}
+          type: Button
+        layout_properties: {width: 306.12498779296874}
+        name: grid_panel_1_copy_2_copy
+        properties: {}
+        type: GridPanel
+      - components:
+        - event_bindings: {click: geneticexp_click}
+          layout_properties: {col_xs: 1, row: XIEMHV, width_xs: 10}
+          name: geneticexp
+          properties: {border: '', role: elevated-card, text: Genetic Algorithm Attacks}
+          type: Button
+        layout_properties: {width: 315.3869633789063}
+        name: grid_panel_1_copy_copy_2_copy
+        properties: {}
+        type: GridPanel
+      - components:
+        - event_bindings: {click: generationexp_click}
+          layout_properties: {col_xs: 1, row: USHJUU, width_xs: 10}
+          name: generationexp
+          properties: {role: elevated-card, text: LLM Based Generation}
+          type: Button
+        layout_properties: {width: 303.761951171875}
+        name: grid_panel_1_copy_copy_copy_copy
+        properties: {}
+        type: GridPanel
+      name: flow_panel_1_copy_copy
+      properties: {}
+      type: FlowPanel
+    layout_properties: {grid_position: 'MIZCDN,WFDKRJ'}
+    name: flow_panel_1_copy
+    properties: {}
+    type: FlowPanel
+  - components: []
+    layout_properties: {grid_position: 'UWSGKH,UELIJW'}
+    name: rich_text_4_copy
+    properties: {content: Defence Methods, font_size: 24}
+    type: RichText
+  - components:
+    - components: []
+      name: rich_text_8_copy_copy
+      properties: {content: 'With the overwhelming number of effective jailbreak attacks against these models, it seems impossible to create a robust model which raises numerous concerns about the safety of the data and privacy of the users. However, since the robustness of the model is in the interest of the developers, there have also been numerous defence methods developed.'}
+      type: RichText
+    layout_properties: {grid_position: 'BFOAFB,EDGYKF'}
+    name: rich_text_8_copy
+    properties: {content: 'With the overwhelming number of effective jailbreak attacks against these models, it seems impossible to create a robust model which raises numerous concerns about the safety of the data and privacy of the users. However, since the robustness of the model is in the interest of the developers, there have also been numerous defence methods developed.'}
+    type: RichText
+  - components:
+    - components:
+      - components:
+        - event_bindings: {click: detectionexp_click}
+          layout_properties: {col_xs: 1, row: FYGZWD, width_xs: 10}
+          name: detectionexp
+          properties: {role: elevated-card, text: Prompt Detection}
+          type: Button
+        layout_properties: {width: 306.12498779296874}
+        name: grid_panel_1_copy_2_copy_copy
+        properties: {}
+        type: GridPanel
+      - components:
+        - event_bindings: {click: perturbationexp_click}
+          layout_properties: {col_xs: 1, row: XIEMHV, width_xs: 10}
+          name: perturbationexp
+          properties: {border: '', role: elevated-card, text: Prompt Perturbation}
+          type: Button
+        layout_properties: {width: 315.3869633789063}
+        name: grid_panel_1_copy_copy_2_copy_copy
+        properties: {}
+        type: GridPanel
+      - components:
+        - event_bindings: {click: safeguardexp_click}
+          layout_properties: {col_xs: 1, row: USHJUU, width_xs: 10}
+          name: safeguardexp
+          properties: {font_size: 13.6, role: elevated-card, text: System Prompt Safeguards}
+          type: Button
+        layout_properties: {width: 303.761951171875}
+        name: grid_panel_1_copy_copy_copy_copy_copy
+        properties: {}
+        type: GridPanel
+      name: flow_panel_1_copy_copy_copy
+      properties: {}
+      type: FlowPanel
+    - components:
+      - components:
+        - components:
+          - event_bindings: {click: sftexp_click}
+            layout_properties: {col_xs: 1, row: FYGZWD, width_xs: 10}
+            name: sftexp
+            properties: {role: elevated-card, text: SFT Based Methods}
+            type: Button
+          layout_properties: {width: 306.12498779296874}
+          name: grid_panel_1_copy_2_copy_copy_copy
+          properties: {}
+          type: GridPanel
+        - components:
+          - event_bindings: {click: rlhfexp_click}
+            layout_properties: {col_xs: 1, row: XIEMHV, width_xs: 10}
+            name: rlhfexp
+            properties: {border: '', role: elevated-card, text: RLHF Based Methods}
+            type: Button
+          layout_properties: {width: 315.3869633789063}
+          name: grid_panel_1_copy_copy_2_copy_copy_copy
+          properties: {}
+          type: GridPanel
+        - components:
+          - event_bindings: {click: gradientaexp_click}
+            layout_properties: {col_xs: 1, row: USHJUU, width_xs: 10}
+            name: gradientaexp
+            properties: {role: elevated-card, text: Gradient Analysis}
+            type: Button
+          layout_properties: {width: 303.761951171875}
+          name: grid_panel_1_copy_copy_copy_copy_copy_copy
+          properties: {}
+          type: GridPanel
+        - components:
+          - components:
+            - event_bindings: {click: logitaexp_click}
+              layout_properties: {col_xs: 1, row: FYGZWD, width_xs: 10}
+              name: logitaexp
+              properties: {role: elevated-card, text: Logit Analysis}
+              type: Button
+            layout_properties: {width: 306.12498779296874}
+            name: grid_panel_1_copy_2_copy_copy_copy_copy
+            properties: {}
+            type: GridPanel
+          - components:
+            - event_bindings: {click: refinementexp_click}
+              layout_properties: {col_xs: 1, row: XIEMHV, width_xs: 10}
+              name: refinementexp
+              properties: {border: '', role: elevated-card, text: Refinement}
+              type: Button
+            layout_properties: {width: 315.3869633789063}
+            name: grid_panel_1_copy_copy_2_copy_copy_copy_copy
+            properties: {}
+            type: GridPanel
+          - components:
+            - event_bindings: {click: proxyexp_click}
+              layout_properties: {col_xs: 1, row: USHJUU, width_xs: 10}
+              name: proxyexp
+              properties: {role: elevated-card, text: Proxy Defence}
+              type: Button
+            layout_properties: {width: 303.761951171875}
+            name: grid_panel_1_copy_copy_copy_copy_copy_copy_copy
+            properties: {}
+            type: GridPanel
+          name: flow_panel_1_copy_copy_copy_copy_copy
+          properties: {}
+          type: FlowPanel
+        name: flow_panel_1_copy_copy_copy_copy
+        properties: {}
+        type: FlowPanel
+      layout_properties: {}
+      name: rich_text_7_copy_copy_copy
+      properties: {content: Model Level Defences, font_size: 20}
+      type: RichText
+    - components: []
+      layout_properties: {}
+      name: rich_text_4_copy_copy
+      properties: {content: Conclusion, font_size: 24}
+      type: RichText
+    layout_properties: {grid_position: 'BPGRCX,UAUWCY'}
+    name: rich_text_7_copy_copy
+    properties: {content: Prompt Level Protection, font_size: 20}
+    type: RichText
+  - components:
+    - components: []
+      layout_properties: {}
+      name: rich_text_9
+      properties: {content: 'It is necessary to further these defence methods as much as possible, to prevent catastrophic breaches in the future. In order to keep up with the increasingly advanced attacks, considerable investment is necessary.'}
+      type: RichText
+    - layout_properties: {}
+      name: rich_text_4_copy_copy_copy
+      properties: {content: Sources, font_size: 24}
+      type: RichText
+    - layout_properties: {}
+      name: rich_text_9_copy
+      properties:
+        content: |
+          https://arxiv.org/pdf/2310.06987
+          https://arxiv.org/html/2409.18169v5
+          https://arxiv.org/pdf/2310.13345
+          https://arxiv.org/pdf/2407.04295
+      type: RichText
+    layout_properties: {grid_position: 'PUUHIU,QNYPRF'}
+    name: rich_text_8_copy_copy_copy
+    properties: {content: 'As AI as a technology becomes increasingly important, it is necessary to ensure a proper level of defence is put in place especially considering the large amount of sensitive and potentially dangerous data that goes into each model during the training process. Vulnerabilities in such models could lead to massive leaks of personal data, widespread access to information on creating dangerous weapons, security data from AI involved operations being leaked, and much more. Therefore, while a large numbers of attack methods have appeared to coax this sensitive data contained within LLMs into the light, numerous defence methods have developed to protect the privacy and safety of consumers.'}
+    type: RichText
+  layout_properties: {slot: default}
+  name: content_panel
+  properties: {}
+  type: ColumnPanel
+- layout_properties: {slot: nav-right}
+  name: navbar_links
+  properties: {}
+  type: FlowPanel
+container:
+  properties: {html: '@theme:standard-page.html'}
+  type: HtmlTemplate
+is_package: true

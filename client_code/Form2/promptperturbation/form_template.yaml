@@ -1,0 +1,7 @@
+components:
+- layout_properties: {grid_position: 'TSSIZF,AFIPEQ'}
+  name: rich_text_1
+  properties: {content: 'In order to prevent the rejection of good prompts caused by an overly simple defence, a more advanced method of prompt detection (which can block out both good and bad prompts with a wide range) called prompt perturbation can be implemented. Similarly to prompt detection, prompt perturbation also prevents attacks by blocking ones which it thinks are malicious. In order to detect these, the prompt will have different parts perturbed, which can disrupt adversarial elements. Different versions of these perturbed prompts along with the original prompt will be inputted into the LLM, and the variance of the responses will allow the program to determine if the response is malicious or not. With adversarial elements, the original prompt will be significantly different from the perturbed ones, whereas normally they would have similar outputs. Through this, attacks can be detected and blocked.'}
+  type: RichText
+container: {type: ColumnPanel}
+is_package: true

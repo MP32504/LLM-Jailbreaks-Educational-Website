@@ -1,0 +1,7 @@
+components:
+- layout_properties: {grid_position: 'WHWBVH,DTVAGX'}
+  name: rich_text_1
+  properties: {content: 'As the name suggests, proxy defence involves outsourcing the defence to a secondary model, which will monitor the primary model and ensure that it is not outputting potentially dangerous information. There are numerous secondary models which are dedicated to security purposes, such as Meta’s Llamaguard.'}
+  type: RichText
+container: {type: ColumnPanel}
+is_package: true

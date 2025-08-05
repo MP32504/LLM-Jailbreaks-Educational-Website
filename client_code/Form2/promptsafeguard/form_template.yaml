@@ -1,0 +1,7 @@
+components:
+- layout_properties: {grid_position: 'LUODZZ,ZWWEQZ'}
+  name: rich_text_1
+  properties: {content: 'System prompt safeguards utilize hidden prompts in the model, primarily to prevent attacks which are executed through changing the model itself. These prompts are added, similarly to prompt detection, to prevent harmful inputs. However, system prompt safeguards act as a second defensive measure in the case that the model is jailbroken through, for example, retraining with malicious data inserted. This allows for a greater level of security within white box models, which are vulnerable to fine tuning based attacks.'}
+  type: RichText
+container: {type: ColumnPanel}
+is_package: true
