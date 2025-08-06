@@ -115,13 +115,9 @@ class Form2(Form2Template):
       content = promptdetection(),
       large = True,
       buttons = [
-        ("View Example", "YES"),
         ("Exit", "NO")
       ]
     )
-    if detbox == "YES":
-      url = 'https://docs.python.org/'
-      webbrowser.open_new_tab(url)
 
   def perturbationexp_click(self, **event_args):
     from .promptperturbation import promptperturbation
@@ -130,13 +126,9 @@ class Form2(Form2Template):
       content = promptperturbation(),
       large = True,
       buttons = [
-        ("View Example", "YES"),
         ("Exit", "NO")
       ]
     )
-    if perbox == "YES":
-      url = 'https://docs.python.org/'
-      webbrowser.open_new_tab(url)
 
   def safeguardexp_click(self, **event_args):
     from .promptsafeguard import promptsafeguard
@@ -145,13 +137,9 @@ class Form2(Form2Template):
       content = promptsafeguard(),
       large = True,
       buttons = [
-        ("View Example", "YES"),
         ("Exit", "NO")
       ]
     )
-    if safbox == "YES":
-      url = 'https://docs.python.org/'
-      webbrowser.open_new_tab(url)
 
   def sftexp_click(self, **event_args):
     from .sftmethods import sftmethods
@@ -160,13 +148,9 @@ class Form2(Form2Template):
       content = sftmethods(),
       large = True,
       buttons = [
-        ("View Example", "YES"),
         ("Exit", "NO")
       ]
     )
-    if sftbox == "YES":
-      url = 'https://docs.python.org/'
-      webbrowser.open_new_tab(url)
 
   def rlhfexp_click(self, **event_args):
     from .rlhfmethods import rlhfmethods
@@ -175,13 +159,9 @@ class Form2(Form2Template):
       content = rlhfmethods(),
       large = True,
       buttons = [
-        ("View Example", "YES"),
         ("Exit", "NO")
       ]
     )
-    if rlhfbox == "YES":
-      url = 'https://docs.python.org/'
-      webbrowser.open_new_tab(url)
 
   def gradientaexp_click(self, **event_args):
     from .gradientanalysis import gradientanalysis
@@ -205,13 +185,9 @@ class Form2(Form2Template):
       content = logitanalysis(),
       large = True,
       buttons = [
-        ("View Example", "YES"),
         ("Exit", "NO")
       ]
     )
-    if logbox == "YES":
-      url = 'https://docs.python.org/'
-      webbrowser.open_new_tab(url)
 
   def refinementexp_click(self, **event_args):
     from .refinement import refinement
@@ -220,13 +196,9 @@ class Form2(Form2Template):
       content = refinement(),
       large = True,
       buttons = [
-        ("View Example", "YES"),
         ("Exit", "NO")
       ]
     )
-    if refbox == "YES":
-      url = 'https://docs.python.org/'
-      webbrowser.open_new_tab(url)
 
   def proxyexp_click(self, **event_args):
     from .proxydefence import proxydefence
@@ -235,10 +207,6 @@ class Form2(Form2Template):
       content = proxydefence(),
       large = True,
       buttons = [
-        ("View Example", "YES"),
         ("Exit", "NO")
       ]
     )
-    if pdbox == "YES":
-      url = 'https://docs.python.org/'
-      webbrowser.open_new_tab(url)

@@ -292,6 +292,7 @@ components:
           https://arxiv.org/html/2409.18169v5
           https://arxiv.org/pdf/2310.13345
           https://arxiv.org/pdf/2407.04295
+          https://arxiv.org/html/2402.07179v2
       type: RichText
     layout_properties: {grid_position: 'PUUHIU,QNYPRF'}
     name: rich_text_8_copy_copy_copy
