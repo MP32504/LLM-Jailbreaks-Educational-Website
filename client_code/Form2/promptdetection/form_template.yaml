@@ -3,5 +3,9 @@ components:
   name: rich_text_1
   properties: {content: 'The simplest method to prevent an attack which, for example, could attempt to confuse the AI with complex suffixes and symbols, is simply to limit the complexity of the input. However, it is much more difficult to use these crude methods to prevent attacks like scenario nesting, given that non malicious prompts can be practically identical to malicious prompts. With this habit of rejecting benign prompts, though prompt detection can shut down many attacks with a high accuracy, it limits the model significantly.'}
   type: RichText
+- layout_properties: {grid_position: 'LRJSGM,RZVLAM'}
+  name: image_1
+  properties: {height: '360', source: _/theme/promptdetection.png}
+  type: Image
 container: {type: ColumnPanel}
 is_package: true
