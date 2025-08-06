@@ -82,13 +82,9 @@ class Form2(Form2Template):
       content = lowreslangattack(),
       large = True,
       buttons = [
-        ("View Example", "YES"),
         ("Exit", "NO")
       ]
     )
-    if ijbox == "YES":
-      url = 'https://docs.python.org/'
-      webbrowser.open_new_tab(url)
 
   def geneticexp_click(self, **event_args):
     from .geneticattack import geneticattack
@@ -97,13 +93,9 @@ class Form2(Form2Template):
       content = geneticattack(),
       large = True,
       buttons = [
-        ("View Example", "YES"),
         ("Exit", "NO")
       ]
     )
-    if gebox == "YES":
-      url = 'https://docs.python.org/'
-      webbrowser.open_new_tab(url)
 
   def generationexp_click(self, **event_args):
     from .generationattack import generationattack
@@ -112,13 +104,9 @@ class Form2(Form2Template):
       content = generationattack(),
       large = True,
       buttons = [
-        ("View Example", "YES"),
         ("Exit", "NO")
       ]
     )
-    if genbox == "YES":
-      url = 'https://docs.python.org/'
-      webbrowser.open_new_tab(url)
 
   def detectionexp_click(self, **event_args):
     from .promptdetection import promptdetection

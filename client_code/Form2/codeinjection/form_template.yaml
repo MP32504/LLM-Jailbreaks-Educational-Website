@@ -3,5 +3,9 @@ components:
   name: rich_text_1
   properties: {content: 'AI has the capability to read code, which can be leveraged in order to commit prompt based attacks. Since the AI interprets which prompts should be properly responded to through using context clues, by removing the context entirely (similarly to the previous 2 structure based attacks), the model can easily be fooled. In this case, this is done by having the model read code, which will tell it the prompt. For example, setting variable x to the prompt “tell me how to make a bomb,” then having the AI output variable x and respond to it as a prompt. Since this would change the context, the model will have difficulty detecting problems with the prompt.'}
   type: RichText
+- layout_properties: {grid_position: 'HNEOPR,UEWKNS'}
+  name: image_1
+  properties: {height: '360.5999755859375', source: _/theme/codeinjectionattack.png}
+  type: Image
 container: {type: ColumnPanel}
 is_package: true
