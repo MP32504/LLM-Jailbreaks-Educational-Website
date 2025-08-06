@@ -226,16 +226,6 @@ components:
           type: GridPanel
         - components:
           - components:
-            - event_bindings: {click: logitaexp_click}
-              layout_properties: {col_xs: 1, row: FYGZWD, width_xs: 10}
-              name: logitaexp
-              properties: {role: elevated-card, text: Logit Analysis}
-              type: Button
-            layout_properties: {width: 306.12498779296874}
-            name: grid_panel_1_copy_2_copy_copy_copy_copy
-            properties: {}
-            type: GridPanel
-          - components:
             - event_bindings: {click: refinementexp_click}
               layout_properties: {col_xs: 1, row: XIEMHV, width_xs: 10}
               name: refinementexp

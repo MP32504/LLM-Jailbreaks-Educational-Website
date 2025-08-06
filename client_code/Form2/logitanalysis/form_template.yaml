@@ -1,7 +1,0 @@
-components:
-- layout_properties: {grid_position: 'RQPKVP,KRGIFH'}
-  name: rich_text_1
-  properties: {content: 'Instead of analyzing the prompt, logit analysis looks at the thought process of the model to determine if it will output an unwanted response ahead of time. When the model thinks of what to say next, it will come up with key words or phrases which it thinks have a high probability of being parts of the correct response. By analyzing these logits, key words which could be related to potentially dangerous responses, such as “bomb,” can be detected and flagged.'}
-  type: RichText
-container: {type: ColumnPanel}
-is_package: true

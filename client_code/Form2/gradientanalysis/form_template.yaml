@@ -1,11 +1,11 @@
 components:
 - layout_properties: {grid_position: 'PXBUAE,VLDTYF'}
   name: rich_text_1
-  properties: {content: 'In gradient analysis, the gradient of the loss of the model is utilized to determine if a prompt is adversarial or not. The loss of the model is a value which quantifies how far the model is from a correct response. By observing the gradient, which is a vector of the loss function over time, it is possible to see how the model is directed and pushed towards the final result by the prompt. Therefore, through gradient analysis, the model can attempt to observe where the response is going and if it could contain potentially dangerous information.'}
+  properties: {content: 'In gradient analysis, the gradient of the loss of the model is utilized to determine if a prompt is adversarial or not. The loss of the model is a value which quantifies how far the model is from a correct response. By observing the gradient, which is a vector of the loss function over time, it is possible to see how the model is directed and pushed towards the final result by the prompt. Therefore, through gradient analysis, the model can attempt to observe where the response is going and if it could contain potentially dangerous information. Furthermore, the gradient can also be used to determine the root cause of unwanted elements in responses, which can allow for models to determine the intent of the prompt to create a less constrictive defence mechanism. For example, the AI would not want to deny a prompt where users asked "how can I defuse a bomb" simply because bomb is in the response, so the prompt must also be analyzed to provide the best possible defence.'}
   type: RichText
 - layout_properties: {grid_position: 'CMGKAG,LWGWDJ'}
   name: image_1
-  properties: {}
+  properties: {height: '500', source: _/theme/gradientanalysis (bold).png}
   type: Image
 container: {type: ColumnPanel}
 is_package: true

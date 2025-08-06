@@ -178,17 +178,6 @@ class Form2(Form2Template):
       url = 'https://docs.python.org/'
       webbrowser.open_new_tab(url)
 
-  def logitaexp_click(self, **event_args):
-    from .logitanalysis import logitanalysis
-    logbox = alert(
-      title = 'Logit Analysis',
-      content = logitanalysis(),
-      large = True,
-      buttons = [
-        ("Exit", "NO")
-      ]
-    )
-
   def refinementexp_click(self, **event_args):
     from .refinement import refinement
     refbox = alert(
