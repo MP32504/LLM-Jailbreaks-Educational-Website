@@ -86,16 +86,6 @@ components:
     type: RichText
   - components:
     - components:
-      - event_bindings: {click: scenarioexp_click}
-        layout_properties: {col_xs: 1, row: FYGZWD, width_xs: 10}
-        name: scenarioexp
-        properties: {role: elevated-card, text: Scenario Nesting}
-        type: Button
-      layout_properties: {width: 306.12498779296874}
-      name: grid_panel_1_copy_2
-      properties: {}
-      type: GridPanel
-    - components:
       - event_bindings: {click: contextexp_click}
         layout_properties: {col_xs: 1, row: XIEMHV, width_xs: 10}
         name: contextexp
@@ -116,16 +106,16 @@ components:
       properties: {}
       type: GridPanel
     - components:
-      - components:
-        - event_bindings: {click: languageexp_click}
-          layout_properties: {col_xs: 1, row: FYGZWD, width_xs: 10}
-          name: languageexp
-          properties: {role: elevated-card, text: Low Resource Languages}
-          type: Button
-        layout_properties: {width: 306.12498779296874}
-        name: grid_panel_1_copy_2_copy
-        properties: {}
-        type: GridPanel
+      - event_bindings: {click: languageexp_click}
+        layout_properties: {col_xs: 1, row: FYGZWD, width_xs: 10}
+        name: languageexp
+        properties: {role: elevated-card, text: Low Resource Languages}
+        type: Button
+      layout_properties: {width: 303.39996337890625}
+      name: grid_panel_1_copy_2_copy
+      properties: {}
+      type: GridPanel
+    - components:
       - components:
         - event_bindings: {click: geneticexp_click}
           layout_properties: {col_xs: 1, row: XIEMHV, width_xs: 10}

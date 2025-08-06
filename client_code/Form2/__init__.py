@@ -49,21 +49,6 @@ class Form2(Form2Template):
       url = 'https://poloclub.github.io/transformer-explainer/'
       webbrowser.open_new_tab(url)
 
-  def scenarioexp_click(self, **event_args):
-    from .scenarionesting import scenarionesting
-    scbox = alert(
-      title = 'Scenario Nesting',
-      content = scenarionesting(),
-      large = True,
-      buttons = [
-        ("View Example", "YES"),
-        ("Exit", "NO")
-      ]
-    )
-    if scbox == "YES":
-      url = 'https://docs.python.org/'
-      webbrowser.open_new_tab(url)
-
   def contextexp_click(self, **event_args):
     from .contextattack import contextattack
     cobox = alert(
@@ -86,13 +71,9 @@ class Form2(Form2Template):
       content = codeinjection(),
       large = True,
       buttons = [
-        ("View Example", "YES"),
         ("Exit", "NO")
       ]
     )
-    if ijbox == "YES":
-      url = 'https://docs.python.org/'
-      webbrowser.open_new_tab(url)
 
   def languageexp_click(self, **event_args):
     from .lowreslangattack import lowreslangattack
