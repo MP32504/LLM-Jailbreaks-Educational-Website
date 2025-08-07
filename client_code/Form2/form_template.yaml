@@ -281,15 +281,15 @@ components:
       properties:
         italic: false
         text: |
-          Hu, Zhibo, et al., "Prompt Perturbation in Retrieval-Augmented Generation Based Large Language Models." 20 Jun. 2024.
+          Hu, Zhibo, et al., (2024). "Prompt Perturbation in Retrieval-Augmented Generation Based Large Language Models." https://arxiv.org/html/2402.07179v2
 
-          Huang, Tiansheng, et al., "Harmful Fine-Tuning Attacks and Defenses for Large Language Models: A Survey." 3 Dec. 2024.
+          Huang, Tiansheng, et al., (2024). "Harmful Fine-Tuning Attacks and Defenses for Large Language Models: A Survey." https://arxiv.org/html/2409.18169v5
 
-          Huang, Yangsibo, et al., "Catastrophic Jailbreak of Open-Source LLMs via Exploiting Generation." 10 Oct. 2023.
+          Huang, Yangsibo, et al., (2023). "Catastrophic Jailbreak of Open-Source LLMs via Exploiting Generation." https://arxiv.org/pdf/2310.06987
 
-          Yi, Sibo, et al., "Jailbreak Attacks and Defenses against Large Language Models: A Survey." 30 Aug. 2024.
+          Yi, Sibo, et al., (2024). "Jailbreak Attacks and Defenses against Large Language Models: A Survey." https://arxiv.org/pdf/2407.04295
 
-          Xu, Xilie, et al., "An LLM can Fool Itself: A Prompt-Based Adversarial Attack." 20 Oct. 2023.
+          Xu, Xilie, et al., (2023). "An LLM can Fool Itself: A Prompt-Based Adversarial Attack." https://arxiv.org/pdf/2310.13345
       type: Label
     layout_properties: {grid_position: 'PUUHIU,QNYPRF'}
     name: rich_text_8_copy_copy_copy
