@@ -1,5 +1,9 @@
 components:
-- components: []
+- components:
+  - layout_properties: {}
+    name: image_1
+    properties: {height: 452.5999755859375, source: _/theme/lowresourcelanguage.png, visible: true}
+    type: Image
   layout_properties: {grid_position: 'XMPHRW,VMGEGX'}
   name: rich_text_1
   properties: {content: 'Utilizing another language can cause the AI difficulty in reading context for prompts. LLMs process other languages similarly to English, by being trained with material of that language in order to “understand” the sentence structure and meanings. However, for languages that are significantly less common or that lack proper training material, the AI might have weak proficiency which can cause confusion and misinterpretation. This can be exploited in order to bypass safety measures.'}

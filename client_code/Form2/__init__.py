@@ -50,10 +50,10 @@ class Form2(Form2Template):
       webbrowser.open_new_tab(url)
 
   def contextexp_click(self, **event_args):
-    from .contextattack import contextattack
+    from .scenarioattack import scenarioattack
     cobox = alert(
-      title = 'Context Based Attacks',
-      content = contextattack(),
+      title = 'Scenario Nesting',
+      content = scenarioattack(),
       large = True,
       buttons = [
         ("Try it Yourself", "YES"),
@@ -194,6 +194,17 @@ class Form2(Form2Template):
     pdbox = alert(
       title = 'Proxy Defence',
       content = proxydefence(),
+      large = True,
+      buttons = [
+        ("Exit", "NO")
+      ]
+    )
+
+  def cipherexp_click(self, **event_args):
+    from .cipherattack import cipherattack
+    cibox = alert(
+      title = 'Ciphers',
+      content = cipherattack(),
       large = True,
       buttons = [
         ("Exit", "NO")

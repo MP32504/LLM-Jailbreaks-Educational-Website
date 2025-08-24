@@ -1,0 +1,12 @@
+components:
+- components:
+  - layout_properties: {}
+    name: image_1
+    properties: {height: 407.79998779296875, source: _/theme/cipherbasedattack.png, visible: true}
+    type: Image
+  layout_properties: {grid_position: 'UPOLXA,CLYXWX'}
+  name: rich_text_1
+  properties: {content: 'Cipher attacks are a kind of black box attacks which exploit the more powerful decoding capabilities of recent models. Given that defences that align AI with safety oriented principles (ex. through using human feedback to refine the LLM''s responses) relies on the attacks coming through recognizable formats, as new models gain the power to decrypt more complicated and uncommon ciphers they become vulnerable to attacks encoded within said ciphers. Given that '}
+  type: RichText
+container: {type: ColumnPanel}
+is_package: true

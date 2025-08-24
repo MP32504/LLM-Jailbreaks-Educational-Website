@@ -1,7 +1,11 @@
 components:
 - layout_properties: {grid_position: 'OYIAKT,THQRFT'}
   name: rich_text_1
-  properties: {content: 'Genetic algorithm based attacks function essentially the same as logit and gradient based attacks (where additional noise is added into the prompt in order to confuse the model), however they are optimized through the usage of programs which will input different prompts in order to probe the model, looking at responses in order to continuously refine the attack.'}
+  properties: {content: 'Genetic algorithm based attacks function essentially the same as logit and gradient based attacks (where additional noise is added into the prompt in order to confuse the model), however they are optimized through the usage of programs which will input different prompts in order to probe the model, looking at responses in order to continuously refine the attack. Though genetic algorithm based attacks are black box attacks, this continuous refinement can allow for highly targeted and effective attacks.'}
   type: RichText
+- layout_properties: {grid_position: 'ETODRL,MKKAZT'}
+  name: image_1
+  properties: {display_mode: original_size, source: _/theme/geneticalgorithmattack.png}
+  type: Image
 container: {type: ColumnPanel}
 is_package: true

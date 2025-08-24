@@ -1,7 +1,7 @@
 components:
 - layout_properties: {grid_position: 'WHWBVH,DTVAGX'}
   name: rich_text_1
-  properties: {content: 'As the name suggests, proxy defence involves outsourcing the defence to a secondary model, which will monitor the primary model and ensure that it is not outputting potentially dangerous information. There are numerous secondary models which are dedicated to security purposes, such as Meta’s Llamaguard.'}
+  properties: {content: 'As the name suggests, proxy defence involves outsourcing the defence to a secondary model, which will monitor the primary model and ensure that it is not outputting potentially dangerous information. There are numerous secondary models which are dedicated to security purposes, such as Meta’s Llamaguard. Proxy defence is similar to refinement in that the LLM''s output itself is observed instead of the prompt, however during refinement the AI observes itself whereas with proxy defence the model is observed externally. Proxy defence can be easier to implement as refinement requires retraining and editing the model as opposed to using a preexisting one to observe responses.'}
   type: RichText
 - layout_properties: {grid_position: 'IUNRNS,CSJHSV'}
   name: image_1
