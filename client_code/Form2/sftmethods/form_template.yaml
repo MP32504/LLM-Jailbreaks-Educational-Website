@@ -1,7 +1,7 @@
 components:
 - layout_properties: {grid_position: 'YTQBTO,HBFWJW'}
   name: rich_text_1
-  properties: {content: 'Supervised fine tuning (or SFT) based methods are essentially the opposite of fine tuning based attacks, where instead of the data being tweaked with malicious intent it is optimized in order to allow for the most resilient model possible. However, this fine tuning can lead to over sensitivity in the model (where it will block out benign prompts), as well as costing a large amount in order to create a data set that contains high quality safety instructions.'}
+  properties: {content: 'Supervised fine tuning (or SFT) based methods are essentially the opposite of fine tuning based attacks, where instead of the data being tweaked with malicious intent it is optimized in order to allow for the most resilient model possible. However, this fine tuning can lead to over sensitivity in the model (where it will block out benign prompts), as well as costing a large amount in order to create a data set that contains high quality safety instructions. These methods are crucial to increasing the robustness of models, and have proven to be extremely effective. '}
   type: RichText
 container: {type: ColumnPanel}
 is_package: true

@@ -291,7 +291,7 @@ components:
       properties:
         italic: false
         text: |
-          Handa, Divij, et al., (2024). "When "Competency" in Reasoning Opens the Door to Vulnerability: Jailbreaking LLMs via Novel Complex Ciphers." arXiv:2402.10601v3
+          Handa, Divij, et al., (2024). "When 'Competency' in Reasoning Opens the Door to Vulnerability: Jailbreaking LLMs via Novel Complex Ciphers." arXiv:2402.10601v3
 
           Hu, Zhibo, et al., (2024). "Prompt Perturbation in Retrieval-Augmented Generation Based Large Language Models." https://arxiv.org/html/2402.07179v2
 
