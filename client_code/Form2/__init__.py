@@ -166,11 +166,10 @@ class Form2(Form2Template):
   def gradientaexp_click(self, **event_args):
     from .gradientanalysis import gradientanalysis
     glabox = alert(
-      title = 'Gradient Analysis',
+      title = 'Logit Analysis',
       content = gradientanalysis(),
       large = True,
       buttons = [
-        ("View Example", "YES"),
         ("Exit", "NO")
       ]
     )
@@ -205,6 +204,28 @@ class Form2(Form2Template):
     cibox = alert(
       title = 'Ciphers',
       content = cipherattack(),
+      large = True,
+      buttons = [
+        ("Exit", "NO")
+      ]
+    )
+
+  def gradientaexp_copy_click(self, **event_args):
+    from .gradientanalysisreal import gradientanalysisreal
+    garbox = alert(
+      title = 'Gradient Analysis',
+      content = gradientanalysisreal(),
+      large = True,
+      buttons = [
+        ("Exit", "NO")
+      ]
+    )
+
+  def geneticexp_copy_click(self, **event_args):
+    from .contextattack import contextattack
+    cabox = alert(
+      title = 'Context Based Attack',
+      content = contextattack(),
       large = True,
       buttons = [
         ("Exit", "NO")

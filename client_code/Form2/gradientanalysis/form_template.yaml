@@ -1,7 +1,7 @@
 components:
 - layout_properties: {grid_position: 'PXBUAE,VLDTYF'}
   name: rich_text_1
-  properties: {content: to be added}
+  properties: {content: 'In logit analysis, the model attempts to find the context behind potentially dangerous key words through looking at their influences. To start off, the model will have a list of certain keywords which are flagged as potentially dangerous. When the model begins generating it''s response, it will check it''s logits (essentially what the model thinks will come next in the response) for anything matching said keywords. Once one of the keywords is found, the response will be flagged since it might contain sensitive information within it. However, despite the keyword being found, the LLM still has not determined if the prompt itself is actually malicious. Therefore, it looks at the logit containing the keyword (such as bomb), and observes what other logits are connected to it (signifying an influence). When finding correlations between terms which have a negative correlation when paired together, such as "pirate" and "movie," the AI can prevent the prompt from being answered.'}
   type: RichText
 - layout_properties: {grid_position: 'CMGKAG,LWGWDJ'}
   name: image_1
