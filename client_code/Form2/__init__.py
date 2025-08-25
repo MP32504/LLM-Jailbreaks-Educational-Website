@@ -231,3 +231,11 @@ class Form2(Form2Template):
         ("Exit", "NO")
       ]
     )
+
+  def link_1_click(self, **event_args):
+    url = 'https://platform.openai.com/tokenizer'
+    webbrowser.open_new_tab(url)
+
+  def link_1_copy_click(self, **event_args):
+    url = 'https://poloclub.github.io/transformer-explainer/'
+    webbrowser.open_new_tab(url)

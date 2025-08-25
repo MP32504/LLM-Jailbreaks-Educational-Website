@@ -6,7 +6,7 @@ components:
   type: RichText
 - layout_properties: {grid_position: 'IFRYRK,HRQRYG'}
   name: image_1
-  properties: {}
+  properties: {display_mode: original_size, source: _/theme/gradientanalysisreal.png}
   type: Image
 container: {type: ColumnPanel}
 is_package: true

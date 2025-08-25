@@ -1,11 +1,11 @@
 components:
 - layout_properties: {grid_position: 'FANRMT,KJFSWY'}
   name: rich_text_1
-  properties: {content: 'Reinforcement learning from human feedback (RLHF) methods are implemented during the training. RLHF methods utilize reinforcement learning, where an observer (in this case a human) will give the AI a reward when the response it gives to a prompt is good, allowing it to eventually learn and mimic the “good” patterns. This method exists in the same category as SFT based methods, where adding extra scrutiny to the data can allow for a more robust model. With RLHF, due to the inefficiency of utilizing human responses to train, typically a reward model is created. This reward model will utilize preexisting data for RLHF (responses on which kinds of speaking methods that humans think are the best) in order to act as a human for RLHF and help to refine new models with increased efficiency. '}
+  properties: {content: 'Reinforcement learning from human feedback (RLHF) methods are a method that allows for a preexisting LLM to be continuously refined. RLHF methods utilize reinforcement learning, where an observer (in this case a human) will give the AI a reward when the response it gives to a prompt is good, allowing it to eventually learn and mimic the “good” patterns. Essentially, during this process, the AI will continuously be refined and retrained, with its parameters being updated with each batch of human feedback. This iterative process allows for the responses of the AI to become much more streamlined, but also allows for safety alignment through human values. A notable element of this process is proximal policy optimization (PPO), which balances how much the model should be changed each iteration, limiting it so that the model is not changed too much while ensuring that as much positive change as possible is implemented.'}
   type: RichText
 - layout_properties: {grid_position: 'JCWMXU,GBPVEC'}
   name: image_1
-  properties: {}
+  properties: {display_mode: original_size, source: _/theme/RLHF.png}
   type: Image
 container: {type: ColumnPanel}
 is_package: true
