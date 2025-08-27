@@ -1,10 +1,19 @@
 components:
 - components:
+  - layout_properties: {grid_position: 'MTXFAP,PQTGLI'}
+    name: label_1_copy
+    properties: {align: center, font_size: 32, text: Interactive Learning Interface for Understanding Safety with Large Language Models}
+    type: Label
+  - layout_properties: {grid_position: 'EPTYUO,ADAVGB'}
+    name: rich_text_1_copy
+    properties: {align: center, content: 'Ren Wang (Illinois Institute of Technology), Paul Ratasuk (Illinois Mathematics and Science Academy)', font_size: 17}
+    type: RichText
   - layout_properties: {grid_position: 'JPDLLE,KSZMUV'}
     name: label_1
     properties: {font_size: 24, text: 'What are Large Language Models?'}
     type: Label
-  - layout_properties: {grid_position: 'UCSCNG,JCJDOX'}
+  - components: []
+    layout_properties: {grid_position: 'UCSCNG,JCJDOX'}
     name: rich_text_1
     properties: {content: 'Artificial intelligence (AI) is an enormous part of our lives, with generative AI such as ChatGPT at the forefront of current technological development. Among the most influential of these technologies is ChatGPT, which can mimic human conversation in order to fulfill a wide variety of functions. Models such as these are called large language models (LLMs).'}
     type: RichText
@@ -12,6 +21,10 @@ components:
     name: rich_text_2
     properties: {content: 'LLMs are created, similarly to other kinds of AI, through inputting a massive amount of data into algorithms in order to “teach” them. For LLMs, the goal is to mimic human conversations, so the data used would be text. This text is typically sourced from websites or other content on the internet, which is compiled by bots. The data then gets converted into tokens for the LLM to read, with different words and symbols encoded into strings of numbers.'}
     type: RichText
+  - layout_properties: {grid_position: 'XBRVUD,RDUNPO'}
+    name: image_2
+    properties: {source: _/theme/tokenization.png}
+    type: Image
   - components: []
     event_bindings: {click: link_1_click}
     layout_properties: {grid_position: 'BOTQYK,UTNTFK'}
