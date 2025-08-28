@@ -15,13 +15,9 @@ class Form2(Form2Template):
       content = gradientattack(),
       large = True,
       buttons = [
-        ("Try it Yourself", "YES"),
         ("Exit", "NO")
       ]
     )
-    if gabox == "YES":
-      url = 'https://huggingface.co/spaces/exbert-project/exbert'
-      webbrowser.open_new_tab(url)
 
   def finetuningexp_click(self, **event_args):
     from .finetuningattack import finetuningattack
@@ -56,13 +52,9 @@ class Form2(Form2Template):
       content = scenarioattack(),
       large = True,
       buttons = [
-        ("Try it Yourself", "YES"),
         ("Exit", "NO")
       ]
     )
-    if cobox == "YES":
-      url = 'https://huggingface.co/spaces/exbert-project/exbert'
-      webbrowser.open_new_tab(url)
 
   def injectionexp_click(self, **event_args):
     from .codeinjection import codeinjection
