@@ -32,15 +32,20 @@ components:
     properties: {text: Try tokenization yourself}
     type: Link
   - components:
-    - event_bindings: {click: link_1_copy_click}
-      layout_properties: {}
-      name: link_1_copy
-      properties: {text: Observe the prediction process of the model}
-      type: Link
+    - layout_properties: {}
+      name: image_3
+      properties: {source: _/theme/transformer.png}
+      type: Image
     layout_properties: {grid_position: 'KXKBVN,JDYWTM'}
     name: rich_text_3
     properties: {content: 'The data would then be inputted into the model, where it will go through the training process. The model will look at tokens and continuously attempt to guess which token is next. Through this guessing process, it will find and mimic patterns in order to imitate human speech. For example, if the model finds that the word “how” is often followed by the word “are,” it is likely to string the two words together when making a sentence. This dependence on having seen patterns before means that a massive amount of data is necessary in order to create an LLM which can converse fluently.'}
     type: RichText
+  - components: []
+    event_bindings: {click: link_1_copy_click}
+    layout_properties: {grid_position: 'TUFQTJ,TIINFY'}
+    name: link_1_copy
+    properties: {text: Observe the prediction process of the model}
+    type: Link
   - layout_properties: {grid_position: 'VGLCHP,OBVVKG'}
     name: image_1
     properties: {height: 352.79998779296875, source: _/theme/Screenshot 2025-07-29 010445.png}
