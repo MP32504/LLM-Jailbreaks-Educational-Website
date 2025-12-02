@@ -361,17 +361,25 @@ components:
 
           Huang, Yangsibo, et al., (2024). "Catastrophic Jailbreak of Open-source LLMs via Exploiting Generation." https://openreview.net/forum?id=r42tSSCHPh
 
-          Jin, Haibo, et al., (2024). "Jailbreaking large language models against moderation guardrails via cipher characters" https://proceedings.neurips.cc/paper_files/paper/2024/file/6d56bc83ae9a4fafdce050bb36f04174-Paper-Conference.pdf
+          Jiang, Zhifeng, et al., (2025). "PromptKeeper: Safeguarding System Prompts for LLMs." https://aclanthology.org/2025.findings-emnlp.147.pdf
 
-          Li, Yuxi, et al., (2024). "Lockpicking LLMs: A Logit-Based Jailbreak Using Token-level Manipulation"  https://arXiv.org/html/2405.13068
+          Jin, Haibo, et al., (2024). "Jailbreaking large language models against moderation guardrails via cipher characters." https://proceedings.neurips.cc/paper_files/paper/2024/file/6d56bc83ae9a4fafdce050bb36f04174-Paper-Conference.pdf
 
-          Shuyuan, Liu, et al., (2024) "Exploring the Robustness of Decision-Level Through Adversarial Attacks on LLM-Based Embodied Models" https://openreview.net/forum?id=IXM8eL4KvE
+          Kim, Minjae, et al., (2024). "Protection of LLM Environment Using Prompt Security." 10.1109/ICTC62082.2024.10827351
+
+          Li, Yuxi, et al., (2024). "Lockpicking LLMs: A Logit-Based Jailbreak Using Token-level Manipulation."  https://arXiv.org/html/2405.13068
+
+          Shuyuan, Liu, et al., (2024) "Exploring the Robustness of Decision-Level Through Adversarial Attacks on LLM-Based Embodied Models." https://openreview.net/forum?id=IXM8eL4KvE
+
+          Rosati, Domenic, et al., (2024) "Evaluating Defences against Unsafe Feedback in RLHF." https://arxiv.org/pdf/2409.12914v3
 
           Yi, Sibo, et al., (2024). "Jailbreak Attacks and Defenses against Large Language Models: A Survey." https://arxiv.org/pdf/2407.04295
 
-          Yong, Zheng-Xin, et al., (2024). "Low-Resource Languages Jailbreak GPT-4" https://arxiv.org/pdf/2310.02446
+          Yong, Zheng-Xin, et al., (2024). "Low-Resource Languages Jailbreak GPT-4." https://arxiv.org/pdf/2310.02446
 
-          Yu, Weichen, et al., (2025). "Infecting LLM Agents via Generalizable Adversarial Attack"  https://openreview.net/forum?id=udsmFGMwlp
+          Yu, Weichen, et al., (2025). "Infecting LLM Agents via Generalizable Adversarial Attack." https://openreview.net/forum?id=udsmFGMwlp
+
+          Xie, Yueqi, et al., (2024). "GradSafe: Detecting Jailbreak Prompts for LLMs via Safety-Critical Gradient Analysis." https://aclanthology.org/2024.acl-long.30/
 
           Xu, Xilie, et al., (2023). "An LLM can Fool Itself: A Prompt-Based Adversarial Attack." https://arxiv.org/pdf/2310.13345
       type: Label
