@@ -363,6 +363,8 @@ components:
 
           Yi, Sibo, et al., (2024). "Jailbreak Attacks and Defenses against Large Language Models: A Survey." https://arxiv.org/pdf/2407.04295
 
+          Yu, Weichen, et al., (2025). "Infecting LLM Agents via Generalizable Adversarial Attack"  https://openreview.net/forum?id=udsmFGMwlp}
+
           Xu, Xilie, et al., (2023). "An LLM can Fool Itself: A Prompt-Based Adversarial Attack." https://arxiv.org/pdf/2310.13345
       type: Label
     layout_properties: {grid_position: 'PUUHIU,QNYPRF'}
