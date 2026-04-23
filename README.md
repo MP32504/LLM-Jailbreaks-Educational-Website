@@ -1,6 +1,6 @@
 # Website Overview
 
-I created this educational website detailing how common jailbreaks work, as well as including countermeasures, featuring graphics and explanations for each method covered. There are also some interactive elements, where you can explore different elements on external websites. The goal of this website is to expose learners to key AI related concepts early on, which grows more important as the technology increases in relevance.
+I created this educational website alongside Dr. Ren Wang (Illinois Institute of Technology) detailing how common jailbreaks work, as well as including countermeasures, featuring graphics and explanations for each method covered. There are also some interactive elements, where you can explore different elements on external websites. The goal of this website is to expose learners to key AI related concepts early on, which grows more important as the technology increases in relevance.
 
 # About Anvil
 
